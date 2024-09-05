@@ -3,7 +3,7 @@ const games = [
     { title: "The Legend of Zelda", year: 1986, platform: "NES", image: "img/the-legend-of-zelda.webp", description: "Um jogo de aventura de mundo aberto onde Link deve salvar Hyrule de Ganon." },
     { title: "Donkey Kong", year: 1981, platform: "Arcade", image: "img/donkey-kong.jpg", description: "Um clássico jogo de arcade onde Mario deve escalar escadas e evitar barris para resgatar Pauline de Donkey Kong." },
     { title: "Pac-Man", year: 1980, platform: "Arcade", image: "img/pac-man.jpg", description: "Um jogo de arcade baseado em labirintos onde Pac-Man deve comer todos os pontos enquanto evita os fantasmas." },
-    { title: "Tetris", year: 1984, platform: "Game Boy", image: "img/tetris.jpg", description: "Um jogo de quebra-cabeça onde os jogadores devem girar e empilhar blocos que caem para criar linhas completas." },
+    { title: "Tetris", year: 1984, platform: "Game Boy", image: "img/Tetris.jpg", description: "Um jogo de quebra-cabeça onde os jogadores devem girar e empilhar blocos que caem para criar linhas completas." },
     { title: "Metroid", year: 1986, platform: "NES", image: "img/metroid.png", description: "Um jogo de aventura de ação em plataforma lateral onde Samus Aran deve explorar um vasto mundo alienígena e derrotar Mother Brain." },
     { title: "Mega Man 2", year: 1988, platform: "NES", image: "img/mega-man-2.jpg", description: "Um plataforma onde Mega Man deve derrotar Dr. Wily e seus mestres robóticos." },
     { title: "Castlevania", year: 1986, platform: "NES", image: "img/castlevania.jpg", description: "Um jogo de aventura de ação em plataforma lateral onde Simon Belmont deve derrotar Drácula." },
