@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Retro Games Collection</title>
+    <!-- Importando a folha de estilo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Retro Games Collection</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#games">Jogos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Bem-vindo à Retro Games Collection!</h1>
+            <p>Explore nossa coleção de jogos clássicos e saiba mais sobre os títulos que marcaram época.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre</h2>
+        <p>A Retro Games Collection é dedicada a preservar e celebrar os jogos retro que definiram uma era. Aqui você encontra informações sobre os 50 jogos retrôs mais queridos, suas histórias e muito mais.</p>
+    </section>
+
+    <section id="search">
+        <input type="text" id="search-bar" placeholder="Buscar por jogos...">
+        <button onclick="searchGame()">Buscar</button>
+    </section>
+
+    <section id="games">
+        <h2>Lista de Jogos</h2>
+        <div id="games-container">
+            <!-- Os jogos serão renderizados aqui -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Para entrar em contato conosco, envie um e-mail para: <a href="mailto:contato@retrogames.com">contato@retrogames.com</a></p>
+    </section>
+
+    <!-- Modal para exibir a descrição do jogo -->
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="game-title"></h2>
+            <p id="game-description"></p>
+            <p><strong>Ano:</strong> <span id="game-year"></span></p>
+            <p><strong>Plataforma:</strong> <span id="game-platform"></span></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Retro Games Collection &copy; 2024 | Desenvolvido por LenonTM</p>
+    </footer>
+
+    <!-- Arquivo JavaScript -->
+    <script src="js/games.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
